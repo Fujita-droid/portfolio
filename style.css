@@ -12,6 +12,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   box-sizing: border-box;
+  font-family: 'ヒラギノ角ゴシック','Hiragino Sans';
 }
 main{
   background-color: #fdfdff;
