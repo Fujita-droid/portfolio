@@ -109,6 +109,7 @@ img {
 .top p::first-line{
   color: #111111;
   font-size: 5rem;
+  line-height: 80px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
