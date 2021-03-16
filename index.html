@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- スライダー css-->
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/common.css"/>
+
+
+<!-- フォントオーサム -->
+<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+<!-- モーダル -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+<main>
+    <header class="header">
+       
+        <div class="logo">Portfolio</div><!-- /.logo -->
+        <!-- HPのヘッダー -->
+        <div class="head-hp">
+        <ul class="head-list sp-none">
+            <li><a href="#skill">スキル</a></li>
+            <li><a href="#achievement">実績</a></li>
+            <li><a href="#accordion">経歴</a></li>
+        </ul>
+    </div>
+        <!-- ハンバーガーメニュー部分 -->
+        <div class="drawer hp-none">
+          <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
+          <input type="checkbox" id="drawer-check" class="drawer-hidden" >
+      
+          <!-- ハンバーガーアイコン -->
+          <label for="drawer-check" class="drawer-open"><span></span></label>
+      
+          <!-- メニュー -->
+          <nav class="drawer-content">
+            <ul class="drawer-list">
+              <li class="drawer-item">
+                <a href="#skill">スキル</a>
+              </li><!-- /.drawer-item -->
+              <li class="drawer-item">
+                <a href="#achievement">実績</a>
+              </li><!-- /.drawer-item -->
+              <li class="drawer-item">
+                <a href="#accordion">経歴</a>
+              </li><!-- /.drawer-item -->
+            </ul><!-- /.drawer-list -->
+          </nav>
+        </div>
+      </header>
+
+
+    <div class="top">
+    <div class="top-img"><img src="img/top_blackpng.png" alt=""></div>
+        <p>Thank you<br>
+        ポートフォリオをご覧いただきありがとうございます。<br>
+    レスポンシブ対応となっている為、お好きなデバイスでご覧ください。<br><br>
+最後まで、目を通して頂ければ幸いです。</p>
+        
+    </div>
+    <!-- ▼　会社概要　▼ -->
+        <div class="my-skill content" id="skill">
+            <h2>スキル</h2>
+            <ul class="skill-list">
+                <li>
+                    <img src="img/pc_sp.png" alt="スキル画像" class="skill-img">
+                    <p>HTML&CSS<br>
+                        LP制作やECサイトの修正&更新等実績有り。<br>
+                        基礎知識があり、プラグインを使用したサイト制作も可能でございます。<br>
+                        また、レスポンシブ対応も可能。
+                    </p>
+                </li>
+                <li>
+                    <img src="img/bnr.png" alt="スキル画像" class="skill-img">
+                    <p>Photoshop<br>
+                        使用経験1年以上の為、基本的な操作可能でございます。<br>
+                    商品画像修正やバナー制作、電子書籍の表紙制作経験有り。<br>
+                </p>
+                </li>
+                <li>
+                    <img src="img/pen.png" alt="スキル画像" class="skill-img">
+                    <p>Illustrator<br>
+                        簡単なアイコン作成可能でございます。<br>
+                        ポスターやメッセージカード制作経験もある為、印刷物制作もお任せください。</p>
+                </li>
+            </ul>
+        </div>
+        <div id="modal01" class="modal js-modal">
+            <div class="modal__bg js-modal-close"></div>
+            <div class="modal__content">
+                <p>
+                <img src="img/9.png" alt="">
+                <img src="img/11.png" alt="">
+                <img src="img/12.png" alt="">
+                <img src="img/13.png" alt="">
+                <img src="img/2.png" alt="">
+                <img src="img/5.png" alt="">
+                <img src="img/6.png" alt="">
+                <img src="img/4.png" alt="">
+            </p>
+                <a class="js-modal-close" href="">閉じる</a>
+            </div><!--modal__inner-->
+        </div><!--modal-->
+            <div id="modal02" class="modal js-modal">
+                <div class="modal__bg js-modal-close"></div>
+                <div class="modal__content">
+                    <p>
+                        <img src="img/ec_skin_jewelry.jpg" alt="">
+                        <img src="img/ec_tw_enquete-1.jpg" alt="">
+                        <img src="img/ec_video_service_2102.jpg" alt="">
+                        <img src="img/bnr_2020ranking_s01.jpg" alt="">
+                        <img src="img/half_7days.jpg" alt="">
+                        <img src="img/half_nd_2021.jpg" alt="">
+                        <img src="img/half_wd_2021_0225.jpg" alt="">
+                        <img src="img/rp_half_2103.jpg" alt="">
+                    </p>
+                    <a class="js-modal-close" href="">閉じる</a>
+                </div><!--modal__inner-->
+            </div><!--modal-->
+            <div id="modal03" class="modal js-modal">
+                <div class="modal__bg js-modal-close"></div>
+                <div class="modal__content">
+                    <p>3つ目モーダルウィンドウです。ここにモーダルウィンドウで表示したいコンテンツを入れます。モーダルウィンドウを閉じる場合は下の「閉じる」をクリックするか、背景の黒い部分をクリックしても閉じることができます。</p>
+                    <a class="js-modal-close" href="">閉じる</a>
+                </div><!--modal__inner-->
+            </div>
+            <!--modal-->
+        <!-- ▲　会社概要　▲ -->
+
+        <!-- ▼　キャリア　▼ -->
+        <div class="career content" id="achievement">
+            <h2>実績</h2>
+            <div class="career-bg">
+        <div class="career-card">
+            <div class="career-text">
+                <div class="career-title">
+                    <div class="text-count">01</div>
+                    <h3>YouTube活動</h3>
+                </div>
+                <p>副業でサムネイル制作を始め、基本的なPhotoshop操作を覚えるほか、YouTubeアナリティクスを使用しYouTubeのマーケティング活動経験有り。</p>
+                    <a href="" class="btn js-modal-open" data-target="modal01">SAMPLE一覧</a>
+            </div>
+            <div class="career-img">
+                <img src="img/youtube_line.png" alt="">
+            </div>
+        </div>
+
+        <div class="career-card">
+            <div class="career-text">
+                <div class="career-title">
+                    <div class="text-count">02</div>
+                    <h3>自社サイトのバナー制作</h3>
+                </div>
+                <p>自社サイトのバナー制作や、ブログのアイキャッチ制作経験有り。<br>
+                    ご依頼者様とのコミュニケーションを大切にし、ご希望デザインの詳細を聞き出すよう意識しております。
+                </p>
+                    <a href="" class="btn js-modal-open" data-target="modal02">SAMPLE一覧</a>
+            </div>
+            <div class="career-img"><img src="img/web.png" alt=""></div>
+        </div>
+
+        <div class="career-card">
+            <div class="career-text">
+                <div class="career-title">
+                    <div class="text-count">03</div>
+                    <h3>ECサイト・公式LINE運営・多数のチャットツール経験</h3>
+                </div>
+                <p>楽天・Yahoo!・自社サイトのECサイトの修正や更新経験有り。
+                    Dreamweaverの操作可能でございます。<br>
+                    公式LINE運営も行い、メッセージ配信やアナリティクスも使用可能。<br>
+                また、Slack・ChatWork・Skype・Zoomも問題なく使えます。</p>
+            </div>
+            <div class="career-img"><img src="img/net.png" alt=""></div>
+        </div>
+    </div>
+
+        </div>
+
+        <!-- ▲　キャリア　▲ -->
+
+        <!-- アコーディオン -->
+        <div class="content">
+            <h2>経歴</h2>
+
+        <ul id="accordion" class="accordion">
+          <li>
+            <div class="link"><i class="fas fa-school"></i>
+                <span>学歴</span><i class="fa fa-chevron-down"></i></div>
+            <ul class="submenu">
+                <li>2014/3　<br class="hp-none">神奈川県立百合丘高等学校 卒業</li>
+                <li>2014/4　<br class="hp-none">明星大学人文学部国際コミュニケーション学科 入学</li>
+                <li>2018/3　<br class="hp-none">明星大学人文学部国際コミュニケーション学科 卒業</li>
+              </ul>
+          </li>
+          <li>
+            <div class="link"><i class="fas fa-briefcase"></i>
+                <span>職歴</span><i class="fa fa-chevron-down"></i></div>
+            <ul class="submenu">
+              <li>2018/4　<br class="hp-none">株式会社ウェルネスフロンティア ジョイリハ 入社</li>
+              <li>2019/7　<br class="hp-none">株式会社ウェルネスフロンティア ジョイリハ 退社</li>
+              <li>2019/9　<br class="hp-none">株式会社ユキリエ 入社</li>
+              <li>2020/3　<br class="hp-none">株式会社ユキリエ 退社</li>
+              <li>2020/7　<br class="hp-none">株式会社ジュエリー工房Orefice Web制作課 入社 </li>
+            </ul>
+          </li>
+        </ul>
+    </div>
+        <!-- ▲　アコーディオン　▲ -->
+
+        <div class="last-message">
+            <img src="img/cat.png" alt="">
+            <p>Thank you...</p>
+
+        </div>
+
+
+
+</main>
+<footer></footer>
+        <!-- ↓body閉じタグ直前でjQueryを読み込む -->
+        <!-- <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+
+        <script type="text/javascript" src="js/common.js"></script>
+
+
+</body>
+</html>
